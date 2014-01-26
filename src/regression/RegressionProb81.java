@@ -113,7 +113,7 @@ public class RegressionProb81 {
 	}
 
 	public static void main(String[] args) {
-		RegressionProb8 r2 = new RegressionProb8(new Random());
+		RegressionProb81 r2 = new RegressionProb81(new Random());
 		r2.regressionWithoutTransformation();
 		System.out.println(r2.getError());
 	}
