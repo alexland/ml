@@ -97,7 +97,7 @@ public class GUI {
 		Line hypoLine;
 
 		public DrawPanel() {
-			points = new ArrayList<>();
+			points = new ArrayList<Point>();
 			setSize(X_LEN, Y_LEN);
 			setVisible(true);
 		}
